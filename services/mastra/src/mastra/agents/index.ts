@@ -1,13 +1,7 @@
 import { openai } from "@ai-sdk/openai";
 import { Agent } from "@mastra/core/agent";
 import { weatherTool } from "../tools";
-import { LibSQLStore } from "@mastra/libsql";
-import { z } from "zod";
 import { Memory } from "@mastra/memory";
-
-export const AgentState = z.object({
-  proverbs: z.array(z.string()).default([]),
-});
 
 export const weatherAgent = new Agent({
   id: "weather-agent",
