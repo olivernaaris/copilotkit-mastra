@@ -1,0 +1,21 @@
+{
+  "name": "copilotkit-mastra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:frontend": "turbo run dev --filter=@workspace/frontend",
+    "dev:mastra": "turbo run dev --filter=@workspace/mastra",
+    "dev:debug": "LOG_LEVEL=debug turbo run dev",
+    "build": "turbo run build",
+    "build:frontend": "turbo run build --filter=@workspace/frontend",
+    "build:mastra": "turbo run build --filter=@workspace/mastra",
+    "start": "pnpm --filter @workspace/frontend start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules .turbo"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "turbo": "^2.7.2"
+  }
+}
