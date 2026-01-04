@@ -30,8 +30,8 @@ export const mastra = new Mastra({
     },
     apiRoutes: [
       registerCopilotKit({
-        path: '/chat',
-        resourceId: 'weatherAgent'
+        path: '/copilotkit',
+        resourceId: 'copilotkit-resource',
       })
     ]
   }

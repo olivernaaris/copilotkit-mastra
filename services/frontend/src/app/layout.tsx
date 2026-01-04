@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <CopilotKit 
-          runtimeUrl={process.env.NEXT_PUBLIC_MASTRA_URL || "http://localhost:8080/chat"} 
+          runtimeUrl={`${process.env.NEXT_PUBLIC_MASTRA_URL}/copilotkit`}
           agent="weatherAgent"
         >
           {children}

@@ -2,6 +2,7 @@
   "name": "copilotkit-mastra",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.26.0",
   "scripts": {
     "dev": "turbo run dev",
     "dev:frontend": "turbo run dev --filter=@workspace/frontend",
@@ -17,5 +18,15 @@
   "devDependencies": {
     "concurrently": "^9.1.2",
     "turbo": "^2.7.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@mastra/client-js": "1.0.0-beta.11",
+      "@mastra/core": "1.0.0-beta.18",
+      "@mastra/libsql": "1.0.0-beta.10",
+      "@mastra/loggers": "1.0.0-beta.3",
+      "@mastra/mcp": "1.0.0-beta.7",
+      "@mastra/memory": "1.0.0-beta.9"
+    }
   }
 }
