@@ -7,7 +7,7 @@ This is a starter template for building AI agents using [Mastra](https://mastra.
 This is a **monorepo** managed with [pnpm workspaces](https://pnpm.io/workspaces) and [Turborepo](https://turbo.build/repo). The project is organized into the following services:
 
 ```
-with-mastra/
+copilotkit-mastra/
 ├── services/
 │   ├── frontend/          # Next.js web application (port 3000)
 │   └── mastra/            # Mastra AI agent service (port 4111)
@@ -36,7 +36,7 @@ with-mastra/
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd with-mastra
+cd copilotkit-mastra
 
 # Install all dependencies for the entire monorepo
 pnpm install
