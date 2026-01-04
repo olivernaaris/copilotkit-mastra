@@ -20,7 +20,7 @@
     "@ag-ui/mastra": "0.2.1-beta.1",
     "@ag-ui/proto": "^0.0.42",
     "@ai-sdk/openai": "^2.0.42",
-    "@copilotkit/runtime": "^1.10.6",
+    "@copilotkit/runtime": "^1.50.1",
     "@mastra/ai-sdk": "1.0.0-beta.8",
     "@mastra/client-js": "1.0.0-beta.11",
     "@mastra/core": "1.0.0-beta.19",
