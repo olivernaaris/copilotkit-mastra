@@ -15,16 +15,5 @@ export const weatherAgent = new Agent({
   tools: { weatherTool },
   model: openai("gpt-4o"),
   instructions: "You are a helpful assistant.",
-  memory: new Memory({
-    storage: new LibSQLStore({
-      id: "weather-agent-memory",
-      url: "file::memory:",
-    }),
-    options: {
-      workingMemory: {
-        enabled: true,
-        schema: AgentState,
-      },
-    },
-  }),
+  memory: new Memory(),
 });
