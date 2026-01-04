@@ -20,17 +20,29 @@ importers:
       '@ag-ui/client':
         specifier: ^0.0.42
         version: 0.0.42
+      '@ag-ui/core':
+        specifier: ^0.0.42
+        version: 0.0.42
+      '@ag-ui/encoder':
+        specifier: ^0.0.42
+        version: 0.0.42
+      '@ag-ui/langgraph':
+        specifier: ^0.0.20
+        version: 0.0.20(@ag-ui/client@0.0.42)(@ag-ui/core@0.0.42)(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@ag-ui/mastra':
         specifier: 0.2.1-beta.1
         version: 0.2.1-beta.1(b4eee86daf5f552c68765892ad4bdd0d)
+      '@ag-ui/proto':
+        specifier: ^0.0.42
+        version: 0.0.42
       '@copilotkit/react-core':
-        specifier: ^1.50.0
+        specifier: ^1.10.6
         version: 1.50.0(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(graphql@16.12.0)(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(zod@4.3.4)
       '@copilotkit/react-ui':
-        specifier: ^1.50.0
+        specifier: ^1.10.6
         version: 1.50.0(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(graphql@16.12.0)(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(zod@4.3.4)
       '@copilotkit/runtime':
-        specifier: ^1.50.1
+        specifier: ^1.10.6
         version: 1.50.1(@cfworker/json-schema@4.1.1)(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4)))(@langchain/langgraph-sdk@0.1.10(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@mastra/client-js':
         specifier: ^1.0.0-beta.11
@@ -85,7 +97,7 @@ importers:
   services/mastra:
     dependencies:
       '@ag-ui/client':
-        specifier: 0.0.42
+        specifier: ^0.0.42
         version: 0.0.42
       '@ag-ui/core':
         specifier: ^0.0.42
@@ -106,7 +118,7 @@ importers:
         specifier: ^2.0.42
         version: 2.0.89(zod@4.3.4)
       '@copilotkit/runtime':
-        specifier: ^1.50.1
+        specifier: ^1.10.6
         version: 1.50.1(@cfworker/json-schema@4.1.1)(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4)))(@langchain/langgraph-sdk@0.1.10(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4)))(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.18.3)(zod@4.3.4))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@mastra/ai-sdk':
         specifier: 1.0.0-beta.8
